@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backArrow_imageView"
+        android:src="@drawable/ic_action_backarrow"
+        android:clickable="true"
+        android:layout_gravity="start"
+        />
+
+    <ImageView
+        android:id="@+id/accout_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_account"
+        android:layout_gravity="end"
+        android:padding="12dp"
+        />
+
+
+    <TextView
+        android:id="@+id/toolbar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Əsas Səhifə"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorSecondary"
+        />
+
+</android.support.v7.widget.Toolbar>

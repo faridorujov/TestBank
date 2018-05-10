@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.ofarido.testbank.ExamActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/sc"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@id/tool_bar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include
+            android:id="@+id/question_answer_layout"
+            layout="@layout/question_answer_layout" />
+
+    </ScrollView>
+    <!--<TextView-->
+        <!--android:id="@+id/question_textView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="24dp"-->
+        <!--android:text="question"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/sc" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/answer1_icon"-->
+        <!--android:tag="1"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:onClick="answer_selecting"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/question_textView"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_answer1_unchecked" />-->
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/answer1_radioButton"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@null"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="123456789101112131415161718192aenieabendadn161718192aenieabendadnjdnaed161718192aenieabendadnjdnaed161718192aenieabendadnjdnaedjdnaedadadsadasdsadasdsadasd0"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--app:layout_constraintLeft_toRightOf="@id/answer1_icon"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@id/answer1_icon" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/answer2_icon"-->
+        <!--android:tag="2"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:onClick="answer_selecting"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/answer1_radioButton"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_answer2_unchecked" />-->
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/answer2_radioButton"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@null"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="121718192aenieabendadnjdnaed161718192aenieabendadnjdnaedjdnaedadadsadasdsadasdsadasd0 2"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintLeft_toRightOf="@id/answer2_icon"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@id/answer2_icon" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/answer3_icon"-->
+        <!--android:tag="3"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:onClick="answer_selecting"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/answer2_radioButton"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_answer3_unchecked" />-->
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/answer3_radioButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@null"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="answer 3"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@id/answer3_icon"-->
+        <!--app:layout_constraintLeft_toRightOf="@id/answer3_icon"-->
+        <!--app:layout_constraintTop_toTopOf="@id/answer3_icon" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/answer4_icon"-->
+        <!--android:tag="4"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:onClick="answer_selecting"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/answer3_icon"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_answer4_unchecked" />-->
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/answer4_radioButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@null"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="answer 4"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@id/answer4_icon"-->
+        <!--app:layout_constraintLeft_toRightOf="@id/answer4_icon"-->
+        <!--app:layout_constraintTop_toTopOf="@id/answer4_icon" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/answer5_icon"-->
+        <!--android:tag="5"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:onClick="answer_selecting"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/answer4_icon"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_answer5_unchecked" />-->
+
+    <!--<RadioButton-->
+        <!--android:id="@+id/answer5_radioButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@null"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="answer 5"-->
+        <!--android:textColor="@color/colorSecondary"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@id/answer5_icon"-->
+        <!--app:layout_constraintLeft_toRightOf="@id/answer5_icon"-->
+        <!--app:layout_constraintTop_toTopOf="@id/answer5_icon" />-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/more_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_action_more"
+        android:clickable="true"
+
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/home_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintRight_toRightOf="@id/more_fab"
+        app:layout_constraintBottom_toTopOf="@id/more_fab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Əsas Səhifə"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:background="@color/colorSecondary"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/finish_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintRight_toRightOf="@id/more_fab"
+        app:layout_constraintBottom_toTopOf="@id/more_fab">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamamla"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorSecondary"
+            android:layout_gravity="center"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/time_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintRight_toRightOf="@id/more_fab"
+        app:layout_constraintBottom_toTopOf="@id/more_fab">
+
+        <TextView
+            android:id="@+id/time_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:24"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorSecondary"
+            android:layout_gravity="center"
+            android:layout_marginRight="6dp"
+            android:layout_marginEnd="6dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

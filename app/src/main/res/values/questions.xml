@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="test">
+
+        <!--1-->
+        <item>*\ntənliyini həll edin.(|0|){|1|}[|q_2017_1qrup_qebul_1sual_1img|]</item>
+        <item>-1</item>
+        <item>-3</item>
+        <item>1 və -3</item>
+        <item>1</item>
+        <item>1 və 3</item>
+
+        <!--2-->
+        <item>Radiusları * olan üç çevrənin hər biri digər ikisinə xaricdən toxunur. Ştrixlənmiş hissənin
+            sahəsini tapın.\n*(|11|){|12|}[|q_2017_1qrup_qebul_2sual_1img|]
+            (|108|){|109|}[|q_2017_1qrup_qebul_2sual_2img|]</item>
+        <item>24( * &#8210; &#960; )(|4|){|5|}[|q_2017_1qrup_qebul_2sual_3img|]</item>
+        <item>27( * &#8210; &#960; )(|4|){|5|}[|q_2017_1qrup_qebul_2sual_3img|]</item>
+        <item>32( * &#8210; &#960; )(|4|){|5|}[|q_2017_1qrup_qebul_2sual_4img|]</item>
+        <item>36( * &#8210; &#960; )(|4|){|5|}[|q_2017_1qrup_qebul_2sual_5img|]</item>
+        <item>12( * &#8210; &#960; )(|4|){|5|}[|q_2017_1qrup_qebul_2sual_4img|]</item>
+
+        <!--3-->
+        <item>Müstəvidən 6 sm məsafədə olan nöqtədən bu müstəviyə uzunluğu 10 sm olan mail çəkilmişdir. Mailin
+            proyeksiyasının uzunluğunu tapın.</item>
+        <item>11 sm</item>
+        <item>3 sm</item>
+        <item>8 sm</item>
+        <item>6 sm</item>
+        <item>5 sm</item>
+
+        <!--4-->
+        <item>* bərabrərliyini ödəyən n natural ədədini tapın.(|0|){|1|}[|q_2017_1qrup_qebul_4sual_1img|]</item>
+        <item>4</item>
+        <item>2</item>
+        <item>6</item>
+        <item>5</item>
+        <item>3</item>
+
+        <!--5-->
+        <item>* tənliyinin kökü aşağıdakı aralıqlardan hansına daxildir?(|0|){|1|}[|q_2017_1qrup_qebul_5sual_1img|]</item>
+        <item>(&#8210;81; &#8210;79)</item>
+        <item>(&#8210;12; 10)</item>
+        <item>(62; 64)</item>
+        <item>(79; 81)</item>
+        <item>(3; 7)</item>
+
+        <!--6-->
+        <item>* olarsa, * -i tapın.(|0|){|1|}[|q_2017_1qrup_qebul_6sual_1img|]
+            (|10|){|11|}[|q_2017_1qrup_qebul_6sual_2img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_6sual_3img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_6sual_4img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_6sual_5img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_6sual_6img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_6sual_7img|]</item>
+
+        <!--7-->
+        <item>* hasilini hesablayın.(|0|){|1|}[|q_2017_1qrup_qebul_7sual_1img|]</item>
+        <item>49</item>
+        <item>&#8210;128</item>
+        <item>128</item>
+        <item>&#8210;64</item>
+        <item>64</item>
+
+        <!--8-->
+        <item>ABC üçbucağında &#8736;B = 90&#176;, BD&#8869;AC, AB = 30 sm, BD = 24sm olarsa, DC - nin uzunluğunu tapın.
+            \n*(|91|){|92|}[|q_2017_1qrup_qebul_8sual_1img|]</item>
+        <item>16 sm</item>
+        <item>36 sm</item>
+        <item>32 sm</item>
+        <item>24 sm</item>
+        <item>18 sm</item>
+
+        <!--9-->
+        <item>*\n bərabərsiliklər sisteminin ən böyük və ən kiçik tam həllərinin fərqini tapın.
+            (|0|){|1|}[|q_2017_1qrup_qebul_9sual_1img|]</item>
+        <item>2</item>
+        <item>6</item>
+        <item>&#8210;4</item>
+        <item>9</item>
+        <item>&#8210;5</item>
+
+        <!--10-->
+        <item>Perimetri 34 sm, tərəflərindən biri isə 5 sm olan düzbucaqlının diaqonallarını tapın.</item>
+        <item>11 sm</item>
+        <item>10 sm</item>
+        <item>9 sm</item>
+        <item>13 sm</item>
+        <item>8 sm</item>
+
+        <!--11-->
+        <item>*\ntənliyini həll edin.(|0|){|1|}[|q_2017_1qrup_qebul_11sual_1img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_11sual_2img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_11sual_3img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_11sual_4img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_11sual_5img|]</item>
+        <item>*(|0|){|1|}[|q_2017_1qrup_qebul_11sual_6img|]</item>
+
+        <!--12-->
+        <item>**\nifadəsinin qiymətini hesablayın.(|0|){|1|}[|q_2017_1qrup_qebul_12sual_1img|]
+            (|1|){|2|}[|q_2017_1qrup_qebul_12sual_2img|]</item>
+        <item>3</item>
+        <item>6</item>
+        <item>&#8210;3</item>
+        <item>1</item>
+        <item>&#8210;6</item>
+
+        <!--13-->
+        <item>* ifadəsinin qiymətini hesablayın.(|0|){|1|}[|q_2017_1qrup_qebul_13sual_1img|]</item>
+        <item>&#8210;*</item>
+        <item>&#8210;*</item>
+        <item>&#8210;1</item>
+        <item>*</item>
+        <item>*</item>
+
+        <!--14-->
+        <item>Radiusu 6 sm olan çevrənin bir nöqtəsindən qarşılıqlı perpendikulyar olan iki bərabər vətər çəkilmişdir.
+            Bu vətərlərin uzunluğunu tapın.</item>
+        <item>* sm</item>
+        <item>2 sm</item>
+        <item>* sm</item>
+        <item>3 sm</item>
+        <item>4 sm</item>
+
+        <!--15-->
+        <item>Konusun doğuranı 6 sm, oturacağının radiusu * sm olarsa, konusun doğuranı ilə hündürlüyü
+            arasındakı bucağı tapın.</item>
+        <item>30&#176;</item>
+        <item>45&#176;</item>
+        <item>15&#176;</item>
+        <item>75&#176;</item>
+        <item>60&#176;</item>
+
+        <!--16-->
+        <item>m parametrinin hansı qiymətlərində * funksiyası x - in istənilən həqiqi qiymətlərində müsbətdir?</item>
+        <item>*</item>
+        <item>&#8210;1 &lt; m &lt; 1</item>
+        <item>*</item>
+        <item>*</item>
+        <item>m &lt; &#8210;1</item>
+
+        <!--17-->
+        <item>* funksiyasının qrafikinə çəkilmiş toxunanın absis oxunun müsbət istiqaməti ilə əmələ gətirdiyi &#945;
+            bucağını sinusu * - yə bərabərdir. Toxunma nöqtəsinin absisini tapın *.</item>
+        <item>*</item>
+        <item>*</item>
+        <item>2</item>
+        <item>1</item>
+        <item>*</item>
+
+        <!--18-->
+        <item>* olarsa, * ifadəsinin qiymətini hesablayın.</item>
+        <item>9</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+
+        <!--19-->
+        <item>y ədədinin 98% - indən 44,44 çıxdıqda 3125 ədədinin 12% - i alınır. y ədədini tapın.</item>
+        <item>420</item>
+        <item>400</item>
+        <item>428</item>
+        <item>375</item>
+        <item>42,8</item>
+
+        <!--20-->
+        <item>* tənliklər sistemindən * cəmini tapın.</item>
+        <item>36</item>
+        <item>17</item>
+        <item>26</item>
+        <item>20</item>
+        <item>16</item>
+
+        <!--21-->
+        <item>* funksiyasının ibtidai funksiyalarının ümumi şəklini tapın.</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+
+        <!--22-->
+        <item>Üçbucaqlı piramidanın yan tilləri cüt-cüt perpendikulyar olmaqla 5, 9, 10 - a bərabərdir.
+            Piramidanın həcmini tapın.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <!--23-->
+        <item>ABC üçbucağında A və C bucaqlarının tənbölənləri uyğun olaraq AD və CE - dir. AB = 6, AC = 12 və
+            BC = 15 olarsa, * nisbətini tapın.\n*</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <!--24-->
+        <item>* ədədi silsiləsində * olarsa, onun ilk 20 həddinin cəmini tapın.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <!--25-->
+        <item>Kəsrlər üçün uyğunluğu müəyyən edin.\n
+            1. *\n
+            2. *\n
+            3. *\n
+            \n
+            a. b &lt; a &lt; c &lt; d\n
+            b. a &lt; b &lt; c &lt; d\n
+            c. d &lt; a &lt; b &lt; c\n
+            d. d &lt; c &lt; b &lt; a\n
+            e. b &lt; a &lt; d &lt; c</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+        <!--26-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+
+    </string-array>
+
+
+</resources>
